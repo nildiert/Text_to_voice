@@ -14,5 +14,7 @@ cp voice.py ~/
 echo "Creando ~/voices"
 mkdir ~/voices
 
+alias voice='~/voice.py '
+
 echo ""
 echo "Listo, se supone que todo quedo instalado. :)"
