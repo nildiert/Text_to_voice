@@ -5,7 +5,7 @@
 * Clona este repositorio
 
 ```
-git clone https://github.com/nildiert/Text_to_voice.git && Text_to_voicecd 
+git clone https://github.com/nildiert/Text_to_voice.git && cd Text_to_voice
 ```
 
 * Ejecuta el siguiente comando para configurar e instalar los paquetes necesarios:
