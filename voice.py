@@ -10,7 +10,7 @@ try:
     speech = gTTS(text = str(file), lang = language, slow = False)
     mp3filename = "{}.mp3".format(sys.argv[2])
     speech.save(mp3filename)
-    command = "mv {} ~/voices/".format(mp3filename)
+    command = "mv {} ./".format(mp3filename)
     os.system(command)
 
 except Exception as err:
